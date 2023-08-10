@@ -33,6 +33,7 @@ namespace CalculadoraTest
         [DataRow(0, 0, 0)]
         [DataRow(-1, -4, 0.25)]
         [DataRow(1, -1, -1)]
+        [DataRow(1, -1, -1)]
         [TestMethod]
         public void div_retornaValor(double a, double b, double esperado)
         {
