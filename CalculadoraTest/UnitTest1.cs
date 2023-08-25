@@ -6,7 +6,7 @@ namespace CalculadoraTest
     [TestClass]
     public class UnitTest1
     {
-        [DataRow(4, 4, 8)]
+        [DataRow(10, 4, 8)]
         [DataRow(4, 0, 4)]
         [DataRow(0, 0, 0)]
         [DataRow(-1, -3, -4)]
